@@ -7,7 +7,7 @@ import re
 import sys
 
 # Constants
-ENUMS_LUA_PATH = 'C:\\Program Files (x86)\\Steam\\steamapps\\common\\The Binding of Isaac Rebirth\\resources\\scripts\\enums.lua'
+ENUMS_LUA_PATH = 'enums.lua'
 OUTPUT_FILE = 'enums.json'
 
 # Open the "enums.lua" file
