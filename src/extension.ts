@@ -9,7 +9,7 @@ const enumsPath = path.join(__dirname, '..', 'generate-autocomplete-entries', 'e
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
-export function activate(context: vscode.ExtensionContext) {
+export function activate(context: vscode.) {
 	let enums = fs.readFileSync(enumsPath, 'utf8');
 	enums = JSON.parse(enums);
 	const completionArray: Array<vscode.CompletionItem> = [];
