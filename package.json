@@ -1,10 +1,10 @@
 {
-	"name": "helloworld-sample",
-	"displayName": "helloworld-sample",
-	"description": "HelloWorld example for VS Code",
+	"name": "vscode-isaac-repentance",
+	"displayName": "vscode-isaac-repentance",
+	"description": "Provides auto-completion names for programming The Binding of Isaac: Repentance mods.",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
-	"repository": "https://github.com/Microsoft/vscode-extension-samples/helloworld-sample",
+	"publisher": "kittenchilly",
+	"repository": "https://github.com/kittenchilly/vscode-isaac-repentance",
 	"engines": {
 		"vscode": "^1.34.0"
 	},
@@ -12,7 +12,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onLanguage:lua"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
