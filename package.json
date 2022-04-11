@@ -1,12 +1,12 @@
 {
-	"name": "vscode-isaac-afterbirth-plus",
-	"displayName": "vscode-isaac-afterbirth-plus",
-	"description": "Provides auto-completion names for programming The Binding of Isaac: Afterbirth+ mods.",
+	"name": "vscode-isaac-repentance",
+	"displayName": "vscode-isaac-repentance",
+	"description": "Provides auto-completion names for programming The Binding of Isaac: Repentance mods.",
 	"version": "0.0.1",
-	"publisher": "Zamiel",
+	"publisher": "kittenchilly, Zamiel",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Zamiell/vscode-isaac-afterbirth-plus"
+		"url": "https://github.com/kittenchilly/vscode-isaac-repentance"
 	},
 	"engines": {
 		"vscode": "^1.30.0"
